@@ -5,4 +5,10 @@ Write a standalone executable or script using an Object Oriented language of you
 
 ## Approach
 
-Because of the requirement of a standalone executable OR script, I came to the conclusion that the most time-efficient process would be to develop this project in Javascript and host it through GitHub. This will allow the input to be given through a HTML page and processed in browser.
+Because of the requirement of a standalone executable or script, I came to the conclusion that the most time-efficient process would be to develop this project in Javascript and host it through GitHub. This will allow the input to be given through a HTML page and processed in browser.
+
+First, I developed a dummy UI that replicated the flow of the program. Text Box is passed into a parsing object and an output is requested from this object in two formats and displayed in two places on the screen. As features are fleshed out, they are integrated into this design as functional components.
+
+The live website can be accessed here:
+
+https://github.com/mperez68/ExpeditorsDev-DesignExercise

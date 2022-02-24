@@ -4,29 +4,18 @@
     <meta charset="utf-8">
     <title>Developer Design and Development Exercise</title>
     <script type="text/javascript" src="./parse.js"></script>
+    <script type="text/javascript" src="./person.js"></script>
 </head>
 <body>
     <center>
     Write a standalone executable or script using an Object Oriented language of your preference (Java is the primary dev language at Expeditors).  Given the provided input data, print the expected output to the console or write to a text file.<br>
-    <br>
-    Input data:<br>
-    "Dave","Smith","123 main st.","seattle","wa","43"<br>
-    "Alice","Smith","123 Main St.","Seattle","WA","45"<br>
-    "Bob","Williams","234 2nd Ave.","Tacoma","WA","26"<br>
-    "Carol","Johnson","234 2nd Ave","Seattle","WA","67"<br>
-    "Eve","Smith","234 2nd Ave.","Tacoma","WA","25"<br>
-    "Frank","Jones","234 2nd Ave.","Tacoma","FL","23"<br>
-    "George","Brown","345 3rd Blvd., Apt. 200","Seattle","WA","18"<br>
-    "Helen","Brown","345 3rd Blvd. Apt. 200","Seattle","WA","18"<br>
-    "Ian","Smith","123 main st ","Seattle","Wa","18"<br>
-    "Jane","Smith","123 Main St.","Seattle","WA","13"<br>
     <br>
     Expected output: <br>
     Each household and number of occupants, followed by:<br>
     Each First Name, Last Name, Address and Age sorted by Last Name then First Name where the occupant(s) is older than 18<br><br>
     </center>
 
-    <textarea id="textbox" name="textbox" rows="11" cols="65">
+    <center><textarea id="textbox" name="textbox" rows="11" cols="65">
 "Dave","Smith","123 main st.","seattle","wa","43"
 "Alice","Smith","123 Main St.","Seattle","WA","45"
 "Bob","Williams","234 2nd Ave.","Tacoma","WA","26"
@@ -38,7 +27,7 @@
 "Ian","Smith","123 main st ","Seattle","Wa","18"
 "Jane","Smith","123 Main St.","Seattle","WA","13"</textarea>
     <button type="button" text="Parse" id="Parse" onclick="parse()">Parse!</button>
-    <center><p id="households"></p>
+    <p id="households"></p>
     <p id="adults"></p></center>
 </body>
 </html>

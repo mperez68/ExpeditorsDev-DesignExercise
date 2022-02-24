@@ -9,6 +9,8 @@ Because of the requirement of a standalone executable or script, I came to the c
 
 First, I developed a dummy UI that replicated the flow of the program. Text Box is passed into a parsing object and an output is requested from this object in two formats and displayed in two places on the screen. As features are fleshed out, they are integrated into this design as functional components.
 
+## Product
+
 The live website can be accessed here:
 
 https://mperez68.github.io/ExpeditorsDev-DesignExercise/

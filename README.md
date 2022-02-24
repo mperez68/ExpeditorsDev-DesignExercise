@@ -11,4 +11,4 @@ First, I developed a dummy UI that replicated the flow of the program. Text Box 
 
 The live website can be accessed here:
 
-https://github.com/mperez68/ExpeditorsDev-DesignExercise
+https://mperez68.github.io/ExpeditorsDev-DesignExercise/
